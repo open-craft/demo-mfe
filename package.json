@@ -1,10 +1,10 @@
 {
-  "name": "@edx/frontend-template-application",
+  "name": "@open-craft/demo-mfe",
   "version": "0.1.0",
   "description": "Frontend application template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/frontend-template-application.git"
+    "url": "git+https://github.com/open-craft/demo-mfe.git"
   },
   "browserslist": [
     "last 2 versions",
@@ -27,12 +27,12 @@
   },
   "author": "edX",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/edx/frontend-template-application#readme",
+  "homepage": "https://github.com/open-craft/demo-mfe#readme",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/edx/frontend-template-application/issues"
+    "url": "https://github.com/open-craft/demo-mfe/issues"
   },
   "dependencies": {
     "@edx/brand": "npm:@edx/brand-openedx@1.1.0",
@@ -45,6 +45,7 @@
     "@fortawesome/free-regular-svg-icons": "5.15.4",
     "@fortawesome/free-solid-svg-icons": "5.15.4",
     "@fortawesome/react-fontawesome": "0.1.16",
+    "@reduxjs/toolkit": "^1.6.2",
     "core-js": "3.15.2",
     "prop-types": "15.7.2",
     "react": "16.14.0",
