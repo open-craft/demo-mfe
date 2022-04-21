@@ -1,10 +1,3 @@
-// Add new names for new features as you build them. This allows you
-// to separate out redux state into named areas
-// to avoid putting everything in the root.
-export const STORE_NAMES = {
-  CATALOG: 'catalog',
-};
-
 // Right now we have our built-in home view that we'll keep just
 // to have something at / when testing, but you'll want to
 // be thoughtful about what URL you want to have all your
@@ -20,3 +13,5 @@ export const ROUTES = {
     HOME: '/catalog/',
   },
 };
+
+export default { ROUTES };
