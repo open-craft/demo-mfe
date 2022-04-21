@@ -7,12 +7,12 @@ export default defineMessages({
     description: 'The page heading for the catalog page.',
   },
   catalogLoading: {
-    id: 'catalogCourseLoading',
+    id: 'catalogLoading',
     defaultMessage: 'Loading...',
     description: 'Loading message when fetching the courses.',
   },
   catalogCourseView: {
-    id: 'catalogCourseView',
+    id: 'catalogView',
     defaultMessage: 'View Course',
     description: 'Label for the button that brings the user to the course about page.',
   },

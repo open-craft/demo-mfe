@@ -1,5 +1,6 @@
 /* eslint-disable no-param-reassign */
 import { createSlice } from '@reduxjs/toolkit';
+import { STORE_NAMES } from '../../common/constants';
 
 export const initialCatalogState = () => ({
   fetching: false,
@@ -24,7 +25,7 @@ export const baseCatalogReducers = {
 };
 
 const slice = createSlice({
-  name: 'catalog',
+  name: STORE_NAMES.CATALOG,
   initialState: initialCatalogState(),
   reducers: baseCatalogReducers,
 });
