@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 import { createSlice } from '@reduxjs/toolkit';
-import { STORE_NAMES } from "../../common/constants";
+import { STORE_NAMES } from '../../common/constants';
 
 export const initialCatalogState = () => ({
   fetching: false,
