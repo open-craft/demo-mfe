@@ -49,7 +49,7 @@ export const CatalogPageBase = ({ intl }) => {
           {courses.map((course) => (
             <Col xs={6} md={4} lg={3} key={course.id}>
               <Card>
-                <Card.Img
+                <Card.ImageCap
                   variant="top"
                   src={buildLmsUrl(course.media.course_image.uri)}
                   alt={intl.formatMessage(messages.catalogCourseBannerAlt, { courseName: course.name })}
