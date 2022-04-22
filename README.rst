@@ -19,13 +19,20 @@ Installation
 
 This MFE is bundled with `Devstack <https://github.com/edx/devstack>`_, see the `Getting Started <https://github.com/edx/devstack#getting-started>`_ section for setup instructions.
 
-1. Enumerated list of steps & code blocks, like this:
+You will need to `install NVM <https://github.com/nvm-sh/nvm>`_ in order to use the instructions below and ensure a compatible node/npm version.
+
+1. Follow these instructions to install and run the MFE:
 
    .. code-block::
 
       mkdir -p ~/workspace/
       cd ~/workspace/
       git clone https://github.com/open-craft/demo-mfe.git
+      nvm install
+      nvm use
+      npm install -g npm@8.6.0
+      npm install
+      npm run start
 
 Environment Variables/Setup Notes
 ---------------------------------
