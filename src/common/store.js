@@ -1,9 +1,4 @@
-import { configureStore } from '@reduxjs/toolkit';
-import { catalogReducer } from '../catalog/data/slice';
-import { STORE_NAMES } from './constants';
+import { createStore } from 'redux-dynamic-modules';
 
-export default configureStore({
-  reducer: {
-    [STORE_NAMES.CATALOG]: catalogReducer,
-  },
-});
+// To begin using Providence, we need to initialize a dynamic module store:
+export default createStore({});
